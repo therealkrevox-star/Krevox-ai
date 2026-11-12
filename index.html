@@ -10,34 +10,164 @@
 <body>
   <div class="glow glow-one"></div>
   <div class="glow glow-two"></div>
+
   <header class="topbar">
-    <a class="brand" href="#"><span class="brand-mark">K</span>KREVOX<span class="ai">AI</span></a>
-    <nav><a href="#features" data-uz="Imkoniyatlar" data-en="Features">Imkoniyatlar</a><a href="#about" data-uz="Biz haqimizda" data-en="About">Biz haqimizda</a></nav>
-    <button id="langBtn" class="lang-btn" aria-label="Change language">UZ / EN</button>
+    <a class="brand" href="#">
+      <span class="brand-mark">K</span>KREVOX<span class="ai">AI</span>
+    </a>
+    <nav>
+      <a href="#features" data-uz="Imkoniyatlar" data-en="Features">Imkoniyatlar</a>
+      <a href="#chat" data-uz="AI Chat" data-en="AI Chat">AI Chat</a>
+      <a href="#about" data-uz="Biz haqimizda" data-en="About">Biz haqimizda</a>
+    </nav>
+    <button id="langBtn" class="lang-btn">UZ / EN</button>
   </header>
 
   <main>
     <section class="hero">
-      <div class="status"><span></span><span data-uz="LOYIHA AGENTI • ONLINE'GA TAYYORLANMOQDA" data-en="PROJECT AGENT • GETTING READY">LOYIHA AGENTI • ONLINE'GA TAYYORLANMOQDA</span></div>
-      <h1 data-uz="G‘oyalaringni <em>harakatga</em> aylantir." data-en="Turn your ideas into <em>action</em>.">G‘oyalaringni <em>harakatga</em> aylantir.</h1>
-      <p class="intro" data-uz="KREVOX AI — loyihalaringni rejalash, kodni tahlil qilish va rivojlantirishga yordam beradigan aqlli yordamchi." data-en="KREVOX AI is an intelligent assistant that helps you plan projects, analyze code, and build better.">KREVOX AI — loyihalaringni rejalash, kodni tahlil qilish va rivojlantirishga yordam beradigan aqlli yordamchi.</p>
-      <a class="cta" href="#features"><span data-uz="Imkoniyatlarni ko‘rish" data-en="Explore features">Imkoniyatlarni ko‘rish</span><b>↗</b></a>
-      <div class="hero-orbit"><div class="orbit-ring"></div><div class="core">K<span>AI</span></div><i class="orbit-dot dot-a"></i><i class="orbit-dot dot-b"></i><i class="orbit-dot dot-c"></i></div>
-    </section>
+      <div class="status">
+        <span></span>
+        <span data-uz="LOYIHA AGENTI • KREVOX AI"
+              data-en="PROJECT AGENT • KREVOX AI">
+          LOYIHA AGENTI • KREVOX AI
+        </span>
+      </div>
 
-    <section id="features" class="features">
-      <div class="section-label" data-uz="NIMALAR QILA OLADI?" data-en="WHAT CAN IT DO?">NIMALAR QILA OLADI?</div>
-      <h2 data-uz="Bitta agent. Ko‘plab imkoniyatlar." data-en="One agent. Many possibilities.">Bitta agent. Ko‘plab imkoniyatlar.</h2>
-      <div class="cards">
-        <article class="card"><div class="card-icon">⌘</div><h3 data-uz="Kod bilan ishlash" data-en="Work with code">Kod bilan ishlash</h3><p data-uz="Kodni tahlil qilish, xatolarni topish va yechim taklif qilish." data-en="Analyze code, find bugs, and suggest solutions.">Kodni tahlil qilish, xatolarni topish va yechim taklif qilish.</p></article>
-        <article class="card"><div class="card-icon">◇</div><h3 data-uz="Loyiha boshqaruvi" data-en="Project management">Loyiha boshqaruvi</h3><p data-uz="Vazifalarni rejalash va keyingi qadamlarni belgilash." data-en="Plan tasks and define the next steps.">Vazifalarni rejalash va keyingi qadamlarni belgilash.</p></article>
-        <article class="card"><div class="card-icon">↗</div><h3 data-uz="Notion + Vercel" data-en="Notion + Vercel">Notion + Vercel</h3><p data-uz="Kontekstni saqlash va saytni internetga joylash." data-en="Keep project context and deploy the website.">Kontekstni saqlash va saytni internetga joylash.</p></article>
+      <h1 data-uz="G‘oyalaringni <em>harakatga</em> aylantir."
+          data-en="Turn your ideas into <em>action</em>.">
+        G‘oyalaringni <em>harakatga</em> aylantir.
+      </h1>
+
+      <p class="intro"
+         data-uz="KREVOX AI — loyihalaringni rejalash, kodni tahlil qilish va rivojlantirishga yordam beradigan aqlli yordamchi."
+         data-en="KREVOX AI is an intelligent assistant that helps you plan projects, analyze code, and build better.">
+        KREVOX AI — loyihalaringni rejalash, kodni tahlil qilish va rivojlantirishga yordam beradigan aqlli yordamchi.
+      </p>
+
+      <a class="cta" href="#chat">
+        <span data-uz="AI bilan suhbatlashish"
+              data-en="Chat with AI">AI bilan suhbatlashish</span>
+        <b>↗</b>
+      </a>
+
+      <div class="hero-orbit">
+        <div class="orbit-ring"></div>
+        <div class="core">K<span>AI</span></div>
+        <i class="orbit-dot dot-a"></i>
+        <i class="orbit-dot dot-b"></i>
+        <i class="orbit-dot dot-c"></i>
       </div>
     </section>
 
-    <section id="about" class="bottom-note"><span class="pulse"></span><span data-uz="Hozircha boshlang‘ich versiya. AI chat va GitHub ulanishi keyingi bosqichda qo‘shiladi." data-en="This is the starter version. AI chat and GitHub integration will be added next.">Hozircha boshlang‘ich versiya. AI chat va GitHub ulanishi keyingi bosqichda qo‘shiladi.</span></section>
+    <section id="features" class="features">
+      <div class="section-label"
+           data-uz="NIMALAR QILA OLADI?"
+           data-en="WHAT CAN IT DO?">NIMALAR QILA OLADI?</div>
+
+      <h2 data-uz="Bitta agent. Ko‘plab imkoniyatlar."
+          data-en="One agent. Many possibilities.">
+        Bitta agent. Ko‘plab imkoniyatlar.
+      </h2>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">⌘</div>
+          <h3 data-uz="Kod bilan ishlash" data-en="Work with code">Kod bilan ishlash</h3>
+          <p data-uz="Kodni tahlil qilish, xatolarni topish va yechim taklif qilish."
+             data-en="Analyze code, find bugs, and suggest solutions.">
+            Kodni tahlil qilish, xatolarni topish va yechim taklif qilish.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">◇</div>
+          <h3 data-uz="Loyiha boshqaruvi" data-en="Project management">Loyiha boshqaruvi</h3>
+          <p data-uz="Vazifalarni rejalash va keyingi qadamlarni belgilash."
+             data-en="Plan tasks and define the next steps.">
+            Vazifalarni rejalash va keyingi qadamlarni belgilash.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">↗</div>
+          <h3 data-uz="Notion + GitHub" data-en="Notion + GitHub">Notion + GitHub</h3>
+          <p data-uz="Loyiha kontekstini saqlash va kodlar bilan ishlash."
+             data-en="Keep project context and work with code.">
+            Loyiha kontekstini saqlash va kodlar bilan ishlash.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="chat" class="chat-section">
+      <div class="section-label"
+           data-uz="KREVOX AI BILAN"
+           data-en="TALK TO KREVOX AI">KREVOX AI BILAN</div>
+
+      <h2 data-uz="Suhbatni boshlaymiz."
+          data-en="Let's start a conversation.">
+        Suhbatni boshlaymiz.
+      </h2>
+
+      <div class="chat-box">
+        <div class="chat-header">
+          <div class="chat-avatar">K</div>
+          <div>
+            <strong>KREVOX AI</strong>
+            <span data-uz="Loyiha yordamchisi"
+                  data-en="Project assistant">Loyiha yordamchisi</span>
+          </div>
+          <div class="chat-indicator"></div>
+        </div>
+
+        <div id="chatMessages" class="chat-messages" aria-live="polite">
+          <div class="message assistant">
+            <div class="message-name">KREVOX AI</div>
+            <div class="message-bubble"
+                 data-uz="Salom! Men KREVOX AI. Loyihang haqida gaplashamizmi?"
+                 data-en="Hello! I'm KREVOX AI. Shall we talk about your project?">
+              Salom! Men KREVOX AI. Loyihang haqida gaplashamizmi?
+            </div>
+          </div>
+        </div>
+
+        <form id="chatForm" class="chat-form">
+          <textarea
+            id="messageInput"
+            rows="1"
+            maxlength="4000"
+            placeholder="Xabaringni yoz..."
+            data-placeholder-uz="Xabaringni yoz..."
+            data-placeholder-en="Write your message..."
+            required></textarea>
+          <button id="sendBtn" type="submit" aria-label="Send message">➤</button>
+        </form>
+
+        <p class="chat-hint"
+           data-uz="KREVOX AI javoblari sun’iy intellekt tomonidan yaratiladi."
+           data-en="KREVOX AI responses are generated by artificial intelligence.">
+          KREVOX AI javoblari sun’iy intellekt tomonidan yaratiladi.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="bottom-note">
+      <span class="pulse"></span>
+      <span data-uz="KREVOX AI rivojlantirilmoqda • Bir qadam oldinga."
+            data-en="KREVOX AI is evolving • One step forward.">
+        KREVOX AI rivojlantirilmoqda • Bir qadam oldinga.
+      </span>
+    </section>
   </main>
-  <footer><span>© 2026 KREVOX AI</span><span data-uz="Yaratilmoqda • Bir qadam oldinga." data-en="In progress • One step forward.">Yaratilmoqda • Bir qadam oldinga.</span></footer>
+
+  <footer>
+    <span>© 2026 KREVOX AI</span>
+    <span data-uz="Yaratilmoqda • Bir qadam oldinga."
+          data-en="In progress • One step forward.">
+      Yaratilmoqda • Bir qadam oldinga.
+    </span>
+  </footer>
+
   <script src="script.js"></script>
 </body>
-</html>
+        </html>
